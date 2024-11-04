@@ -1,8 +1,8 @@
 import os
 from fastapi import FastAPI, Request, Depends
+import jwt
 from starlette.responses import JSONResponse
 from dotenv import load_dotenv
-import jwt
 
 load_dotenv()
 
